@@ -1,0 +1,4 @@
+Bundle-Name: custom-order-search-contributor-portlet
+Bundle-SymbolicName: custom.order.search.contributor.portlet
+Bundle-Version: 1.0.0
+Export-Package: custom.order.search.contributor.portlet.constants
