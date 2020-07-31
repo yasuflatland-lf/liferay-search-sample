@@ -1,11 +1,9 @@
 package custom.order.search.contributor;
 
 import com.liferay.portal.kernel.search.Field;
-import com.liferay.portal.kernel.search.generic.BooleanQueryImpl;
 import com.liferay.portal.search.query.BooleanQuery;
 import com.liferay.portal.search.query.FunctionScoreQuery;
 import com.liferay.portal.search.query.Queries;
-import com.liferay.portal.search.query.Query;
 import com.liferay.portal.search.query.TermQuery;
 import com.liferay.portal.search.query.function.score.ScoreFunctions;
 import com.liferay.portal.search.query.function.score.WeightScoreFunction;
