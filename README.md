@@ -22,3 +22,14 @@ A product is consists of multiple parts. At AggreLife, there are two types of we
 Given that, the User Stories are as below:
 - As a user, I always want to see product in the top of the search result, even other parts A,B and C hits too.
 - As a user, I use a tag to identify a product or a component, with "product" and "component."
+
+## Configuration
+1. Deploy the portlet on the same page as the Search Results portlet.
+2. Go to the Configuration menu.
+3. Add the tag names and their respective weight. The higher the weight, the greater the priority.
+4. After saving the configuration, run the search again to see the results.
+
+## Backend
+- CustomOrderSharedSearchContributor.java
+    - This class transforms the search query to a Function Score Query.
+    - The AssetTagNames and weight are read from the `CustomOrderPortletPreferences`
