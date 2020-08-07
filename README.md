@@ -31,5 +31,5 @@ Given that, the User Stories are as below:
 
 ## Backend
 - CustomOrderSharedSearchContributor.java
-- - This class transforms the search query to a Function Score Query.
-- - The AssetTagNames and weight are read from the `CustomOrderPortletPreferences`
+    - This class transforms the search query to a Function Score Query.
+    - The AssetTagNames and weight are read from the `CustomOrderPortletPreferences`
